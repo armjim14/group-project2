@@ -47,23 +47,23 @@ function session(app) {
     // var { name, username, cat, password1, password2 } = req.body;
     var name = req.body.name;
     var username = req.body.username;
-    var cat = req.body.cat;
+    // var cat = req.body.cat;
     var password1 = req.body.password1;
     var password2 = req.body.password2;
     // were all the inputs entered
-    if ((name, username, cat, password1, password2)) {
+    if ((name, username, password1, password2)) {
       // do both paswords match
       if (password1 === password2) {
-        if (cat === "0") {
-          req.flash("err", "You have to select a category");
-          return res.redirect("/register");
-        }
+        // if (cat === "0") {
+        //   req.flash("err", "You have to select a category");
+        //   return res.redirect("/register");
+        // }
 
         db.Users.create({
           nameX: name,
           usernameX: username,
           password1X: password1,
-          category: cat
+          category: "1"
         }).then(function(data) {
           console.log(data + " added");
           return res.redirect("/login");

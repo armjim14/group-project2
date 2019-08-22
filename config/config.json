@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "Morgan1",
-    "database": "porKdb_test",
+    "password": "rootroot",
+    "database": "login",
     "host": "localhost",
     "dialect": "mysql"
   },
