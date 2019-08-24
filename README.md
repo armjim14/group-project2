@@ -10,10 +10,10 @@ This project is a simple site designed to allow User's to ask and answer questio
 In order to run this application you will need to first clone down the code, and then run the npm install command in the file destination in console log. This should install the npm 
 
 To run the application locally  please follow the steps below:
-** or visit [This link will open the live page on Heroku](https://tranquil-wildwood-97609.herokuapp.com/login)
+** or visit [This link will open the live page on Heroku](https://warm-tor-57993.herokuapp.com/login)
 
 
-* clone into the repo using this link:https://github.com/ldsc617/group-project2.git 
+* clone into the repo using this link:https://github.com/armjim14/group-project2.git 
 * cd group-project2
 * npm install
 * node server.js 
